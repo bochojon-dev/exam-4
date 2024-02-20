@@ -1,0 +1,130 @@
+// Light-dark /////////////////////////
+#light-dark {
+  background: transparent;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  transition: all 0.4s ease;
+  cursor: pointer;
+}
+.dark #light-dark:hover {
+  background: rgb(52, 51, 51);
+}
+.dark #light-dark {
+  fill: #fff;
+}
+.dark {
+  background: rgb(31, 30, 30);
+}
+
+.dark * {
+  color: #fff !important;
+}
+.dark #home {
+  background: rgb(52, 51, 51);
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+.dark #home .top {
+  display: none;
+}
+.dark #home .bottom {
+  display: none;
+}
+.dark .fixed {
+  background: rgb(72, 70, 70);
+}
+.dark h5 {
+  background: rgb(52, 51, 51) !important;
+}
+.dark .card:hover {
+  background: rgb(82, 77, 77) !important;
+}
+.dark button {
+  background: transparent !important;
+}
+.dark button:hover {
+  background: rgb(82, 78, 78) !important;
+}
+.dark #area {
+  background: rgb(52, 51, 51);
+}
+.dark #navbar-responsive {
+  background: rgb(71, 70, 70);
+}
+.dark input {
+  background: rgb(87, 86, 86);
+}
+.dark ::placeholder {
+  color: #fff !important;
+}
+.dark .menu-button span {
+  background: #fff;
+}
+.dark #fixed .nav ul li a img {
+  fill: #fff !important;
+}
+.dark h5 {
+  background: transparent !important;
+}
+.dark #family .family .text .cards .card:hover {
+  background: transparent !important;
+}
+.dark #properties .properties .cards .card {
+  background: rgb(27, 25, 25);
+}
+.dark #properties .area-top {
+  display: none;
+}
+.dark #properties .area-bottom {
+  display: none;
+}
+.dark #locations {
+  background: rgb(31, 30, 30);
+}
+.dark #locations .loc .cards .card {
+  background: rgb(26, 25, 25);
+}
+.dark #blog {
+  background: rgb(52, 51, 51);
+}
+.dark #blog .blog .cards .card {
+  background: rgb(26, 25, 25);
+}
+.dark #blog .blog .cards .card .text .qator-1 .k {
+  background: rgb(86, 83, 83);
+}
+.dark #bottom-footer {
+  background: rgb(52, 51, 51);
+}
+.dark #bottom-footer .bottom .icons svg {
+  display: block;
+}
+.dark #bottom-footer .bottom .icons img {
+  display: none;
+}
+#bottom-footer .bottom .icons svg {
+  display: none;
+}
+.dark header #header-1 {
+  background: rgb(65, 63, 63);
+}
+.dark #fixed .menu-button span {
+  background: #fff;
+}
+.dark #nav-responsive {
+  background: #474646 !important;
+}
+.fixed .nav-contents ul li a svg {
+  display: none;
+}
+.dark .fixed .nav-contents ul li img {
+  display: none;
+}
+.dark .fixed .nav-contents ul li svg {
+  display: block;
+  width: 20px;
+}
+.fixed .nav-contents ul li svg {
+  display: none;
+}

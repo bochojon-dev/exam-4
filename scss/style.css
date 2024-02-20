@@ -1,0 +1,375 @@
+.container {
+  max-width: 1240px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+#backtop {
+  text-decoration: none;
+  font-size: 24px;
+  font-weight: 900;
+  background-color: #fff;
+  box-shadow: 4px 4px 12px 2px rgba(0, 0, 0, 0.2);
+  color: #444;
+  width: 40px;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  right: 24px;
+  bottom: -55px;
+  position: fixed;
+  cursor: pointer;
+  z-index: 99;
+  border: none;
+  transition: 0.5s;
+}
+#backtop:hover {
+  background: rgb(241, 242, 236);
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+
+a {
+  text-decoration: none;
+}
+
+header {
+  font-family: Roboto, sans-serif;
+}
+header #header-1 {
+  background: #939878;
+  padding: 10px 0;
+  position: relative;
+  height: 40px;
+}
+header #header-1 h6 {
+  font-family: Roboto;
+  text-align: center;
+  font-size: 14px;
+  color: #fff;
+  line-height: 21px;
+  font-weight: 400;
+}
+header #header-1 .cross {
+  position: absolute;
+  right: 50px;
+  top: 4px;
+}
+
+.fixed {
+  padding: 16px 0;
+  position: sticky;
+  top: 0;
+  right: 0;
+  left: 0;
+  background-color: #fff;
+  z-index: 1000;
+  transition: all 0.4s ease-out;
+  /* MEDIA QUERIES */
+}
+.fixed .nav-contents {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.fixed .nav-contents .logo {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+.fixed .nav-contents .logo h3 {
+  font-size: 26px;
+  color: #2a2c1f;
+}
+.fixed .nav-contents ul {
+  display: flex;
+  align-items: center;
+  gap: 32px;
+}
+.fixed .nav-contents ul li a {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 4px;
+  font-family: Roboto;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  color: #222222;
+  letter-spacing: 0em;
+  text-align: left;
+  transition: all 0.4s ease-out;
+}
+.fixed .nav-contents ul li a:hover {
+  color: #2a2c1f;
+}
+.fixed .nav-contents ul li .button_1 {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0em;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  gap: 4px;
+  cursor: pointer;
+  background: transparent;
+  border-radius: 6px;
+  padding: 9px 21px;
+  box-shadow: 0px 2px 4px 0px rgba(0, 0, 0, 0.0823529412);
+  border: 1px solid #e7e8e3;
+  transition: all 0.4s ease;
+}
+.fixed .nav-contents ul li .button_1:hover {
+  background-color: #cf6f49;
+  color: #fff;
+}
+.fixed .nav-contents ul li .button_2 {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  padding: 9px 21px;
+  cursor: pointer;
+  background: #cf6f49;
+  border: 1px solid #cf6f49;
+  border-radius: 6px;
+  color: #fff;
+  margin-left: -16px;
+  transition: all 0.4s ease;
+}
+.fixed .nav-contents ul li .button_2:hover {
+  background-color: #fff;
+  color: #cf6f49;
+}
+.fixed #nav-responsive.open {
+  left: 0;
+}
+.fixed .menu-button {
+  display: flex;
+  flex-direction: column;
+  border: 0;
+  background: transparent;
+  cursor: pointer;
+  gap: 4px;
+  display: none;
+  transition: all 0.4s ease;
+}
+.fixed .menu-button span {
+  display: block;
+}
+.fixed .menu-x span:nth-child(2) {
+  display: none;
+}
+@media (max-width: 1000px) {
+  .fixed #navbar-responsive {
+    position: fixed;
+    top: 104px;
+    bottom: 0;
+    left: 100%;
+    height: 560px;
+    width: 100%;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #ffffff;
+    transition: 0.5s;
+    z-index: 100;
+  }
+  .fixed .header-button-2 {
+    margin: 0px !important;
+  }
+  .fixed .menu-btn {
+    display: flex;
+  }
+}
+
+.scrolled {
+  top: 64px !important;
+}
+
+.navbar-shrink {
+  padding: 8px 0;
+}
+
+.navbar-shrink #navbar-responsive {
+  top: 48px !important;
+}
+
+#light-dark {
+  background: transparent;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  transition: all 0.4s ease;
+  cursor: pointer;
+}
+
+.dark #light-dark:hover {
+  background: rgb(52, 51, 51);
+}
+
+.dark #light-dark {
+  fill: #fff;
+}
+
+.dark {
+  background: rgb(31, 30, 30);
+}
+
+.dark * {
+  color: #fff !important;
+}
+
+.dark #home {
+  background: rgb(52, 51, 51);
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+
+.dark #home .top {
+  display: none;
+}
+
+.dark #home .bottom {
+  display: none;
+}
+
+.dark .fixed {
+  background: rgb(72, 70, 70);
+}
+
+.dark h5 {
+  background: rgb(52, 51, 51) !important;
+}
+
+.dark .card:hover {
+  background: rgb(82, 77, 77) !important;
+}
+
+.dark button {
+  background: transparent !important;
+}
+
+.dark button:hover {
+  background: rgb(82, 78, 78) !important;
+}
+
+.dark #area {
+  background: rgb(52, 51, 51);
+}
+
+.dark #navbar-responsive {
+  background: rgb(71, 70, 70);
+}
+
+.dark input {
+  background: rgb(87, 86, 86);
+}
+
+.dark ::-moz-placeholder {
+  color: #fff !important;
+}
+
+.dark ::placeholder {
+  color: #fff !important;
+}
+
+.dark .menu-button span {
+  background: #fff;
+}
+
+.dark #fixed .nav ul li a img {
+  fill: #fff !important;
+}
+
+.dark h5 {
+  background: transparent !important;
+}
+
+.dark #family .family .text .cards .card:hover {
+  background: transparent !important;
+}
+
+.dark #properties .properties .cards .card {
+  background: rgb(27, 25, 25);
+}
+
+.dark #properties .area-top {
+  display: none;
+}
+
+.dark #properties .area-bottom {
+  display: none;
+}
+
+.dark #locations {
+  background: rgb(31, 30, 30);
+}
+
+.dark #locations .loc .cards .card {
+  background: rgb(26, 25, 25);
+}
+
+.dark #blog {
+  background: rgb(52, 51, 51);
+}
+
+.dark #blog .blog .cards .card {
+  background: rgb(26, 25, 25);
+}
+
+.dark #blog .blog .cards .card .text .qator-1 .k {
+  background: rgb(86, 83, 83);
+}
+
+.dark #bottom-footer {
+  background: rgb(52, 51, 51);
+}
+
+.dark #bottom-footer .bottom .icons svg {
+  display: block;
+}
+
+.dark #bottom-footer .bottom .icons img {
+  display: none;
+}
+
+#bottom-footer .bottom .icons svg {
+  display: none;
+}
+
+.dark header #header-1 {
+  background: rgb(65, 63, 63);
+}
+
+.dark #fixed .menu-button span {
+  background: #fff;
+}
+
+.dark #nav-responsive {
+  background: #474646 !important;
+}
+
+.fixed .nav-contents ul li a svg {
+  display: none;
+}
+
+.dark .fixed .nav-contents ul li img {
+  display: none;
+}
+
+.dark .fixed .nav-contents ul li svg {
+  display: block;
+  width: 20px;
+}
+
+.fixed .nav-contents ul li svg {
+  display: none;
+}/*# sourceMappingURL=style.css.map */
