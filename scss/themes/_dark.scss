@@ -46,10 +46,10 @@
 .dark button:hover {
   background: rgb(82, 78, 78) !important;
 }
-.dark #area {
+.dark #property {
   background: rgb(52, 51, 51);
 }
-.dark #navbar-responsive {
+.dark #nav-responsive {
   background: rgb(71, 70, 70);
 }
 .dark input {
@@ -70,19 +70,19 @@
 .dark #family .family .text .cards .card:hover {
   background: transparent !important;
 }
-.dark #properties .properties .cards .card {
+.dark #property .property .cards .card {
   background: rgb(27, 25, 25);
 }
-.dark #properties .area-top {
+.dark #property .property-top {
   display: none;
 }
-.dark #properties .area-bottom {
+.dark #property .property-bottom {
   display: none;
 }
 .dark #locations {
   background: rgb(31, 30, 30);
 }
-.dark #locations .loc .cards .card {
+.dark #locations .mark .cards .card {
   background: rgb(26, 25, 25);
 }
 .dark #blog {
@@ -91,19 +91,19 @@
 .dark #blog .blog .cards .card {
   background: rgb(26, 25, 25);
 }
-.dark #blog .blog .cards .card .text .qator-1 .k {
+.dark #blog .blog .cards .card .text .row-1 .trends {
   background: rgb(86, 83, 83);
 }
-.dark #bottom-footer {
+.dark #footer_2 {
   background: rgb(52, 51, 51);
 }
-.dark #bottom-footer .bottom .icons svg {
+.dark #footer_2 .bottom .social_medias svg {
   display: block;
 }
-.dark #bottom-footer .bottom .icons img {
+.dark #footer_2 .bottom .social_medias img {
   display: none;
 }
-#bottom-footer .bottom .icons svg {
+#footer_2 .bottom .social_medias svg {
   display: none;
 }
 .dark header #header-1 {

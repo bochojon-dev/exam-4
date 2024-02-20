@@ -49,12 +49,12 @@ footer #footer_1 .top {
   grid-template-columns: 1fr 1fr 1fr 1fr 1.7fr;
   place-items: start;
 }
-footer #footer_1 .top .logo {
+footer #footer_1 .top .logos {
   display: flex;
   align-items: center;
   gap: 10px;
 }
-footer #footer_1 .top .logo h3 {
+footer #footer_1 .top .logos h3 {
   font-size: 32px;
   color: #2a2c1f;
 }
@@ -62,6 +62,7 @@ footer #footer_1 .top ul {
   display: flex;
   flex-direction: column;
   gap: 16px;
+  list-style-type: none;
 }
 footer #footer_1 .top ul li a {
   font-family: Roboto;
@@ -72,12 +73,12 @@ footer #footer_1 .top ul li a {
   text-align: left;
   color: #2a2c1f;
 }
-footer #footer_1 .top .subscribe {
+footer #footer_1 .top .email {
   display: flex;
   flex-direction: column;
   gap: 12px;
 }
-footer #footer_1 .top .subscribe h5 {
+footer #footer_1 .top .email h5 {
   font-family: Roboto;
   font-size: 16px;
   font-weight: 400;
@@ -86,7 +87,7 @@ footer #footer_1 .top .subscribe h5 {
   text-align: left;
   color: #2a2c1f;
 }
-footer #footer_1 .top .subscribe p {
+footer #footer_1 .top .email p {
   font-family: Roboto;
   font-size: 16px;
   font-weight: 400;
@@ -95,14 +96,14 @@ footer #footer_1 .top .subscribe p {
   text-align: left;
   color: #65665c;
 }
-footer #footer_1 .top .subscribe form {
+footer #footer_1 .top .email form {
   display: flex;
   flex-wrap: wrap;
   row-gap: 16px;
   -moz-column-gap: 10px;
        column-gap: 10px;
 }
-footer #footer_1 .top .subscribe form input {
+footer #footer_1 .top .email form input {
   padding: 12px 14px;
   outline: none;
   border: 1px solid #e7e8e3;
@@ -112,32 +113,32 @@ footer #footer_1 .top .subscribe form input {
   max-width: 240px;
   width: 100%;
 }
-footer #footer_1 .top .subscribe form button {
-  padding: 0px 28px;
+footer #footer_1 .top .email form button {
   font-family: Roboto;
   font-size: 16px;
   font-weight: 400;
   line-height: 24px;
   letter-spacing: 0em;
   text-align: left;
-  color: white;
+  color: #fff;
+  padding: 0px 28px;
   border: 1px solid #cf6f49;
   background: #cf6f49;
   border-radius: 6px;
   height: 50px;
   cursor: pointer;
-  transition: all 0.5s linear;
+  transition: all 0.4s ead;
 }
-footer #footer_1 .top .subscribe form button:hover {
-  background: white;
+footer #footer_1 .top .email form button:hover {
+  background: #fff;
   color: #cf6f49;
 }
-footer #footer_1 .top .subscribe .pri {
+footer #footer_1 .top .email .agree {
   display: flex;
   align-items: center;
   gap: 16px;
 }
-footer #footer_1 .top .subscribe .pri h6 {
+footer #footer_1 .top .email .agree h6 {
   font-family: Roboto;
   font-size: 12px;
   font-weight: 400;
@@ -146,7 +147,7 @@ footer #footer_1 .top .subscribe .pri h6 {
   text-align: left;
   color: #65665c;
 }
-footer #footer_1 .top .subscribe .pri a {
+footer #footer_1 .top .email .agree a {
   font-family: Roboto;
   font-size: 12px;
   font-weight: 400;
@@ -155,23 +156,23 @@ footer #footer_1 .top .subscribe .pri a {
   text-align: left;
   color: #65665c;
 }
-footer #bottom-footer {
+footer #footer_2 {
   padding: 24px 0;
   background: #f5f5f2;
 }
-footer #bottom-footer .bottom {
+footer #footer_2 .bottom {
   display: flex;
   align-items: center;
   justify-content: space-between;
   max-width: 1150px;
   margin: 0 auto;
 }
-footer #bottom-footer .bottom .left {
+footer #footer_2 .bottom .left {
   display: flex;
   align-items: center;
   gap: 10px;
 }
-footer #bottom-footer .bottom .left p {
+footer #footer_2 .bottom .left p {
   font-family: Roboto;
   font-size: 14px;
   font-weight: 400;
@@ -180,19 +181,19 @@ footer #bottom-footer .bottom .left p {
   text-align: left;
   color: #65665c;
 }
-footer #bottom-footer .bottom .icons {
+footer #footer_2 .bottom .social_medias {
   display: flex;
   align-items: center;
   gap: 12px;
 }
 @media (max-width: 900px) {
-  footer #top-footer .top {
+  footer #footer_1 .top {
     grid-template-columns: 1fr 1fr 1fr 1fr;
     row-gap: 30px;
   }
 }
 @media (max-width: 600px) {
-  footer #top-footer .top {
+  footer #footer_1 .top {
     grid-template-columns: 1fr;
     row-gap: 30px;
   }
@@ -230,7 +231,6 @@ header #header-1 .cross {
   background-color: #fff;
   z-index: 1000;
   transition: all 0.4s ease-out;
-  /* MEDIA QUERIES */
 }
 .fixed .nav-contents {
   display: flex;
@@ -357,7 +357,7 @@ header #header-1 .cross {
   padding: 8px 0;
 }
 
-.na-shrink #nav-responsive {
+.nav-shrink #nav-responsive {
   top: 48px !important;
 }
 
@@ -1453,11 +1453,11 @@ main #blog .blog .cards .card:hover {
   background: rgb(82, 78, 78) !important;
 }
 
-.dark #area {
+.dark #property {
   background: rgb(52, 51, 51);
 }
 
-.dark #navbar-responsive {
+.dark #nav-responsive {
   background: rgb(71, 70, 70);
 }
 
@@ -1489,15 +1489,15 @@ main #blog .blog .cards .card:hover {
   background: transparent !important;
 }
 
-.dark #properties .properties .cards .card {
+.dark #property .property .cards .card {
   background: rgb(27, 25, 25);
 }
 
-.dark #properties .area-top {
+.dark #property .property-top {
   display: none;
 }
 
-.dark #properties .area-bottom {
+.dark #property .property-bottom {
   display: none;
 }
 
@@ -1505,7 +1505,7 @@ main #blog .blog .cards .card:hover {
   background: rgb(31, 30, 30);
 }
 
-.dark #locations .loc .cards .card {
+.dark #locations .mark .cards .card {
   background: rgb(26, 25, 25);
 }
 
@@ -1517,23 +1517,23 @@ main #blog .blog .cards .card:hover {
   background: rgb(26, 25, 25);
 }
 
-.dark #blog .blog .cards .card .text .qator-1 .k {
+.dark #blog .blog .cards .card .text .row-1 .trends {
   background: rgb(86, 83, 83);
 }
 
-.dark #bottom-footer {
+.dark #footer_2 {
   background: rgb(52, 51, 51);
 }
 
-.dark #bottom-footer .bottom .icons svg {
+.dark #footer_2 .bottom .social_medias svg {
   display: block;
 }
 
-.dark #bottom-footer .bottom .icons img {
+.dark #footer_2 .bottom .social_medias img {
   display: none;
 }
 
-#bottom-footer .bottom .icons svg {
+#footer_2 .bottom .social_medias svg {
   display: none;
 }
 
