@@ -1,0 +1,1047 @@
+main {
+  font-family: Roboto, sans-serif;
+  #home {
+    background-color: #f5f5f2;
+    position: relative;
+
+    .top {
+      position: absolute;
+      top: 0;
+      left: 0;
+    }
+    .home {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      gap: 20px;
+      .hero-img {
+        background-image: url(../../images/hero-img.png);
+        height: 680px;
+        width: 600px;
+      }
+      div {
+        max-width: 530px;
+        display: flex;
+        flex-direction: column;
+        gap: 24px;
+        position: relative;
+
+        span {
+          h5 {
+            font-size: 14px;
+            font-weight: 400;
+            line-height: 21px;
+            padding: 4px 12px;
+            background: #e7e8e3;
+            border-radius: 32px;
+            width: 170px;
+          }
+        }
+        h1 {
+          color: #2a2c1f;
+          font-size: 56px;
+          font-weight: 400;
+          line-height: 67px;
+        }
+        p {
+          font-size: 20px;
+          font-weight: 400;
+          line-height: 30px;
+          letter-spacing: 0em;
+          text-align: left;
+          color: #65665c;
+        }
+        form {
+          display: flex;
+          align-items: center;
+          gap: 16px;
+          flex-wrap: wrap;
+          input {
+            padding: 9px 10px 9px 56px;
+            outline: none;
+            font-size: 20px;
+            font-weight: 400;
+            border: 1px solid #e7e8e3;
+            box-shadow: 0px 2px 4px 0px #00000014;
+            background-image: url(../../images/search.svg);
+            background-repeat: no-repeat;
+            background-position: top 12px left 19px;
+            height: 48px;
+            border-radius: 6px;
+          }
+          ::placeholder {
+            font-size: 20px;
+            font-weight: 400;
+            line-height: 30px;
+            letter-spacing: 0em;
+            text-align: left;
+            color: #65665c;
+          }
+          button {
+            font-size: 20px;
+            font-weight: 400;
+            line-height: 30px;
+            letter-spacing: 0em;
+            text-align: left;
+            padding: 9px 18px;
+            color: #fff;
+            border: 1px solid #cf6f49;
+            border-radius: 6px;
+            background: #cf6f49;
+            cursor: pointer;
+            transition: all 0.4s ease;
+            &:hover {
+              background-color: #fff;
+              color: #cf6f49;
+            }
+          }
+        }
+        .bottom {
+          position: absolute;
+          bottom: -90px;
+          right: -20px;
+        }
+      }
+    }
+  }
+  #logos {
+    padding-top: 67px;
+    .logos {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      h5 {
+        font-size: 18px;
+        font-weight: 400;
+        line-height: 27px;
+        max-width: 243px;
+        color: #2a2c1f;
+      }
+      .logo {
+        display: flex;
+        align-items: center;
+        gap: 32px;
+      }
+    }
+  }
+  #works {
+    padding-top: 125px;
+    padding-bottom: 64px;
+    .works {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      h2 {
+        font-size: 48px;
+        font-weight: 700;
+        line-height: 58px;
+        letter-spacing: 0em;
+        text-align: center;
+        color: #2a2c1f;
+        margin-bottom: 21px;
+      }
+      p {
+        font-family: Roboto;
+        font-size: 18px;
+        font-weight: 400;
+        line-height: 27px;
+        letter-spacing: 0em;
+        text-align: center;
+        color: #65665c;
+        max-width: 750px;
+        margin-bottom: 61px;
+      }
+      .cards {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        gap: 32px;
+        .card {
+          padding: 48px 34px 48px 34px;
+          border: 1px solid #e7e8e3;
+          box-shadow: 0px 2px 4px 0px #00000014;
+          border-radius: 16px;
+          display: flex;
+          flex-direction: column;
+          align-items: center;
+          transition: all 0.4s ease;
+
+          h4 {
+            font-family: Roboto;
+            font-size: 24px;
+            font-weight: 700;
+            line-height: 34px;
+            letter-spacing: 0em;
+            text-align: center;
+            color: #2a2c1f;
+            margin-top: 24px;
+            margin-bottom: 17px;
+          }
+          p {
+            font-family: Roboto;
+            font-size: 16px;
+            font-weight: 400;
+            line-height: 24px;
+            letter-spacing: 0em;
+            text-align: center;
+            color: #65665c;
+            margin-bottom: 0;
+          }
+          &:hover {
+            background: rgb(247, 249, 235);
+            box-shadow: 0px 0px 5px 5px #00000014;
+          }
+        }
+      }
+    }
+  }
+  #family {
+    padding-top: 64px;
+    .family {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      gap: 40px;
+      margin-bottom: 128px;
+      .text {
+        max-width: 520px;
+        h5 {
+          font-family: Roboto;
+          font-size: 14px;
+          font-weight: 400;
+          line-height: 21px;
+          letter-spacing: 0em;
+          text-align: left;
+          color: #2a2c1f;
+          padding: 4px 12px;
+          background: #e7e8e3;
+          border-radius: 32px;
+          width: 107px;
+        }
+        h2 {
+          font-family: Roboto;
+          font-size: 48px;
+          font-weight: 700;
+          line-height: 58px;
+          letter-spacing: 0em;
+          text-align: left;
+          margin-top: 20px;
+          margin-bottom: 28px;
+        }
+        p {
+          font-family: Roboto;
+          font-size: 18px;
+          font-weight: 400;
+          line-height: 27px;
+          letter-spacing: 0em;
+          text-align: left;
+          color: #65665c;
+        }
+        .buttons {
+          display: flex;
+          align-items: center;
+          margin-top: 21px;
+          gap: 14px;
+          button:nth-child(1) {
+            font-family: Roboto;
+            font-size: 16px;
+            font-weight: 400;
+            line-height: 24px;
+            letter-spacing: 0em;
+            text-align: center;
+            color: #2a2c1f;
+            cursor: pointer;
+            padding: 13px 25px;
+            border: 1px solid #e7e8e3;
+            box-shadow: 0px 2px 4px 0px #00000014;
+            background: transparent;
+            border-radius: 6px;
+            transition: all 0.5s linear;
+            &:hover {
+              background: rgb(240, 241, 234);
+              box-shadow: 0px 0px 5px 5px #00000014;
+            }
+          }
+          button:nth-child(2) {
+            font-family: Roboto;
+            font-size: 16px;
+            font-weight: 400;
+            line-height: 24px;
+            letter-spacing: 0em;
+            text-align: center;
+            color: #2a2c1f;
+            padding: 13px 25px;
+            cursor: pointer;
+            transition: all 0.4s ease;
+            border-radius: 6px;
+            background: transparent;
+            border: none;
+            &:hover {
+              background: rgb(240, 241, 234);
+              box-shadow: 0px 0px 5px 5px #00000014;
+            }
+          }
+        }
+        .cards {
+          display: grid;
+          grid-template-columns: repeat(2, 1fr);
+          margin-top: 37px;
+          margin-bottom: 30px;
+          .card {
+            h4 {
+              font-size: 20px;
+              font-weight: 700;
+              line-height: 28px;
+              letter-spacing: 0em;
+              text-align: left;
+              color: #2a2c1f;
+              margin-top: 16px;
+              margin-bottom: 18px;
+            }
+            p {
+              font-size: 16px;
+              font-weight: 400;
+              line-height: 24px;
+              letter-spacing: 0em;
+            }
+          }
+        }
+      }
+    }
+  }
+  #property {
+    background: #f5f5f2;
+    padding: 128px 0 160px;
+    position: relative;
+    .property {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      h5 {
+        font-size: 14px;
+        font-weight: 400;
+        line-height: 21px;
+        letter-spacing: 0em;
+        text-align: center;
+        padding: 4px 12px;
+        background: #e7e8e3;
+        border-radius: 32px;
+        width: 92px;
+        color: #2a2c1f;
+      }
+      h2 {
+        font-size: 48px;
+        font-weight: 700;
+        line-height: 58px;
+        letter-spacing: 0em;
+        text-align: center;
+        color: #2a2c1f;
+        margin-top: 20px;
+        margin-bottom: 80px;
+      }
+      .cards {
+        display: grid;
+        gap: 32px;
+        grid-template-columns: repeat(3, 1fr);
+        .card {
+          background: #fff;
+          border-radius: 16px;
+          box-shadow: 0px 2px 4px 0px #00000014;
+          transition: all 0.5s linear;
+          &:hover {
+            box-shadow: 0px 5px 10px 5px #00000014;
+            background: rgb(241, 240, 234);
+          }
+          .img {
+            width: 100%;
+          }
+          .text {
+            padding: 24px;
+            h4 {
+              font-size: 24px;
+              font-weight: 700;
+              line-height: 34px;
+              letter-spacing: 0em;
+              text-align: left;
+              color: #2a2c1f;
+            }
+            .cost {
+              font-size: 18px;
+              font-weight: 700;
+              line-height: 27px;
+              letter-spacing: 0em;
+              text-align: left;
+              color: #2a2c1f;
+              margin-top: 3px;
+              margin-bottom: 16px;
+            }
+            .locations {
+              display: flex;
+              gap: 10px;
+              align-items: center;
+              p {
+                font-family: Roboto;
+                font-size: 16px;
+                font-weight: 400;
+                line-height: 24px;
+                letter-spacing: 0em;
+                text-align: left;
+                color: #65665c;
+              }
+            }
+            .card-bottom {
+              display: flex;
+              align-items: center;
+              gap: 24px;
+              margin-top: 16px;
+              .row {
+                display: flex;
+                align-items: center;
+                gap: 10px;
+              }
+            }
+          }
+        }
+      }
+      .buttons {
+        display: flex;
+        align-items: center;
+        margin-top: 80px;
+        gap: 14px;
+        button:first-child {
+          font-family: Roboto;
+          font-size: 16px;
+          font-weight: 400;
+          line-height: 24px;
+          letter-spacing: 0em;
+          text-align: center;
+          color: #2a2c1f;
+          cursor: pointer;
+          padding: 13px 25px;
+          border: 1px solid #e7e8e3;
+          box-shadow: 0px 2px 4px 0px #00000014;
+          background: #fff;
+          border-radius: 6px;
+          transition: all 0.4s ease;
+          &:hover {
+            background: rgb(241, 240, 234);
+            box-shadow: 0px 0px 5px 5px #00000014;
+          }
+        }
+        button:nth-child(2) {
+          font-family: Roboto;
+          font-size: 16px;
+          font-weight: 400;
+          line-height: 24px;
+          letter-spacing: 0em;
+          text-align: center;
+          color: #2a2c1f;
+          padding: 13px 25px;
+          cursor: pointer;
+          transition: all 0.4s ease;
+          border-radius: 6px;
+          background: transparent;
+          border: none;
+          &:hover {
+            background: rgb(241, 240, 234);
+            box-shadow: 0px 0px 5px 5px #00000014;
+          }
+        }
+      }
+    }
+    .property-top {
+      position: absolute;
+      top: 0;
+      right: 0;
+    }
+    .property-bottom {
+      position: absolute;
+      bottom: 0;
+      left: 0;
+    }
+  }
+  #locations {
+    background: #f5f5f2;
+    padding-top: 20px;
+    padding-bottom: 360px;
+    .relative {
+      position: relative;
+    }
+    .mark {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      h2 {
+        font-family: Roboto;
+        font-size: 48px;
+        font-weight: 700;
+        line-height: 58px;
+        letter-spacing: 0em;
+        text-align: center;
+        color: #2a2c1f;
+      }
+      p {
+        font-family: Roboto;
+        font-size: 18px;
+        font-weight: 400;
+        line-height: 27px;
+        letter-spacing: 0em;
+        text-align: center;
+        color: #65665c;
+        max-width: 713px;
+        margin-top: 25px;
+        margin-bottom: 72px;
+      }
+      .cards {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        gap: 16px;
+        width: 100%;
+        .card {
+          background: white;
+          padding: 33px;
+          border: 1px solid #e7e8e3;
+          box-shadow: 0px 2px 4px 0px #00000014;
+          border-radius: 16px;
+          transition: all 0.3s linear;
+          &:hover {
+            background: rgb(247, 249, 235);
+            box-shadow: 0px 0px 5px 5px #00000014;
+          }
+          h4 {
+            font-family: Roboto;
+            font-size: 20px;
+            font-weight: 700;
+            line-height: 28px;
+            letter-spacing: 0em;
+            text-align: left;
+            color: #2a2c1f;
+          }
+          h5 {
+            font-family: Roboto;
+            font-size: 16px;
+            font-weight: 400;
+            line-height: 24px;
+            letter-spacing: 0em;
+            text-align: left;
+            color: #2a2c1f;
+            margin-top: 12px;
+          }
+        }
+      }
+      .buttons {
+        display: flex;
+        align-items: center;
+        margin-top: 80px;
+        gap: 14px;
+        button:first-child {
+          font-family: Roboto;
+          font-size: 16px;
+          font-weight: 400;
+          line-height: 24px;
+          letter-spacing: 0em;
+          text-align: center;
+          color: #2a2c1f;
+          cursor: pointer;
+          padding: 13px 25px;
+          border: 1px solid #e7e8e3;
+          box-shadow: 0px 2px 4px 0px #00000014;
+          background: #fff;
+          border-radius: 6px;
+          transition: all 0.4s ease;
+          &:hover {
+            background: rgb(241, 240, 234);
+            box-shadow: 0px 0px 5px 5px #00000014;
+          }
+        }
+        button:nth-child(2) {
+          font-family: Roboto;
+          font-size: 16px;
+          font-weight: 400;
+          line-height: 24px;
+          letter-spacing: 0em;
+          text-align: center;
+          color: #2a2c1f;
+          padding: 13px 25px;
+          cursor: pointer;
+          transition: all 0.4s ease;
+          border-radius: 6px;
+          background: transparent;
+          border: none;
+          &:hover {
+            background: rgb(241, 240, 234);
+            box-shadow: 0px 0px 5px 5px #00000014;
+          }
+        }
+      }
+    }
+    .bottom {
+      padding: 95px;
+      background: #65665c;
+      border-radius: 24px;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      position: absolute;
+      bottom: -580px;
+      right: 0;
+      left: 0;
+      h2 {
+        font-family: Roboto;
+        font-size: 48px;
+        font-weight: 700;
+        line-height: 58px;
+        letter-spacing: 0em;
+        text-align: center;
+        color: #fff;
+        margin-top: 13px;
+        margin-bottom: 29px;
+      }
+      p {
+        font-family: Roboto;
+        font-size: 18px;
+        font-weight: 400;
+        line-height: 27px;
+        letter-spacing: 0em;
+        text-align: center;
+        color: #e7e8e3;
+        max-width: 765px;
+        margin-bottom: 21px;
+      }
+      button {
+        padding: 13px 25px;
+        font-family: Roboto;
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 24px;
+        letter-spacing: 0em;
+        text-align: center;
+        color: #fff;
+        background: #cf6f49;
+        border: 1px solid #cf6f49;
+        border-radius: 6px;
+        cursor: pointer;
+        transition: all 0.4s ease;
+        &:hover {
+          background: #fff;
+          color: #cf6f49;
+        }
+      }
+    }
+  }
+  #customers {
+    padding-top: 360px;
+    padding-bottom: 160px;
+    .customers {
+      h2 {
+        font-family: Roboto;
+        font-size: 48px;
+        font-weight: 700;
+        line-height: 58px;
+        letter-spacing: 0em;
+        text-align: center;
+        color: #2a2c1f;
+        margin-bottom: 26px;
+      }
+      h5 {
+        font-family: Roboto;
+        font-size: 18px;
+        font-weight: 400;
+        line-height: 27px;
+        letter-spacing: 0em;
+        text-align: center;
+        color: #65665c;
+        margin-bottom: 80px;
+      }
+      .cards {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        gap: 32px;
+        .card {
+          border: 1px solid #e7e8e3;
+          box-shadow: 0px 2px 4px 0px #00000014;
+          padding: 33px;
+          border-radius: 16px;
+          transition: all 0.4s ease;
+          .star {
+            display: flex;
+            align-items: center;
+            gap: 4px;
+          }
+          p {
+            font-family: Roboto;
+            font-size: 18px;
+            font-weight: 400;
+            line-height: 27px;
+            letter-spacing: 0em;
+            text-align: left;
+            color: #2a2c1f;
+            margin: 27px 0;
+          }
+          .profile {
+            display: flex;
+            gap: 16px;
+            align-items: center;
+            .text {
+              h5 {
+                font-family: Roboto;
+                font-size: 16px;
+                font-weight: 700;
+                line-height: 24px;
+                letter-spacing: 0em;
+                text-align: left;
+                color: #2a2c1f;
+                margin-bottom: 0;
+              }
+              h6 {
+                font-family: Roboto;
+                font-size: 16px;
+                font-weight: 400;
+                line-height: 24px;
+                letter-spacing: 0em;
+                text-align: left;
+                color: #65665c;
+                margin-bottom: 0;
+              }
+            }
+          }
+          &:hover {
+            background: rgb(241, 240, 234);
+            box-shadow: 0px 0px 5px 5px #00000014;
+          }
+        }
+      }
+    }
+  }
+  #blog {
+    padding: 128px 0;
+    background: #f5f5f2;
+    .blog {
+      h5 {
+        font-family: Roboto;
+        font-size: 14px;
+        font-weight: 400;
+        line-height: 21px;
+        letter-spacing: 0em;
+        text-align: left;
+        background: #2a2c1f;
+        padding: 4px 12px;
+        width: 53px;
+        border-radius: 32px;
+        background: #e7e8e3;
+      }
+      h2 {
+        font-family: Roboto;
+        font-size: 48px;
+        font-weight: 700;
+        line-height: 58px;
+        letter-spacing: 0em;
+        text-align: left;
+        color: #2a2c1f;
+        margin-top: 21px;
+        margin-bottom: 29px;
+      }
+      .par {
+        display: flex;
+        align-items: center;
+        gap: 30px;
+        justify-content: space-between;
+        margin-bottom: 76px;
+        p {
+          font-family: Roboto;
+          font-size: 18px;
+          font-weight: 400;
+          line-height: 27px;
+          letter-spacing: 0em;
+          text-align: left;
+          color: #65665c;
+          max-width: 710px;
+        }
+        button {
+          font-family: Roboto;
+          font-size: 16px;
+          font-weight: 400;
+          line-height: 24px;
+          letter-spacing: 0em;
+          text-align: center;
+          color: #2a2c1f;
+          padding: 13px 25px;
+          cursor: pointer;
+          border-radius: 6px;
+          border: 1px solid #e7e8e3;
+          box-shadow: 0px 2px 4px 0px #00000014;
+          background: #fff;
+          width: 108px;
+          height: 50px;
+          transition: all 0.4s ease;
+          &:hover {
+            border: 1px solid #e7e8e3;
+            background: rgb(241, 240, 234);
+            box-shadow: 0px 0px 5px 5px #00000014;
+          }
+        }
+      }
+      .cards {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        gap: 32px;
+
+        .card {
+          background: #fff;
+          border-radius: 16px;
+          transition: all 0.4s ease;
+          .text {
+            padding: 24px;
+
+            .row-1 {
+              display: flex;
+              align-items: center;
+              gap: 16px;
+              .trends {
+                padding: 4px 8px;
+                font-family: Roboto;
+                font-size: 14px;
+                font-weight: 400;
+                line-height: 21px;
+                letter-spacing: 0em;
+                text-align: left;
+                background: #fae8e1;
+                border-radius: 32px;
+              }
+              .date {
+                font-family: Roboto;
+                font-size: 14px;
+                font-weight: 400;
+                line-height: 21px;
+                letter-spacing: 0em;
+                text-align: left;
+                color: #65665c;
+              }
+            }
+            h4 {
+              font-family: Roboto;
+              font-size: 26px;
+              font-weight: 800;
+              line-height: 34px;
+              letter-spacing: 0em;
+              text-align: left;
+              color: #2a2c1f;
+              margin-top: 16px;
+              margin-bottom: 9px;
+            }
+            p {
+              font-family: Roboto;
+              font-size: 16px;
+              font-weight: 400;
+              line-height: 24px;
+              letter-spacing: 0em;
+              text-align: left;
+              color: #65665c;
+              max-width: 319px;
+              margin-bottom: 24px;
+            }
+            h3 {
+              font-family: Roboto;
+              font-size: 16px;
+              font-weight: 400;
+              line-height: 24px;
+              letter-spacing: 0em;
+              color: #2a2c1f;
+            }
+          }
+          .img {
+            width: 100%;
+          }
+          &:hover {
+            background: rgb(241, 240, 234);
+            box-shadow: 0px 0px 5px 5px #00000014;
+          }
+        }
+      }
+    }
+  }
+}
+@media (max-width: 1260px) {
+  main #home {
+    .home div .bottom {
+      display: none;
+    }
+  }
+}
+@media (max-width: 1100px) {
+  main #home {
+    padding: 60px 0;
+    .home {
+      flex-direction: column-reverse;
+    }
+  }
+  main #family .family:nth-child(1) {
+    flex-direction: column-reverse;
+  }
+  main #family .family:nth-child(2) {
+    flex-direction: column;
+  }
+}
+@media (max-width: 1000px) {
+  main #logos .logos {
+    flex-direction: column;
+    gap: 30px;
+    .logo {
+      align-items: center;
+      flex-wrap: wrap;
+      justify-content: center;
+    }
+  }
+}
+@media (max-width: 900px) {
+  main #home .top {
+    display: none;
+  }
+  main #property .property .cards {
+    grid-template-columns: repeat(2, 1fr);
+  }
+  main #locations .mark .cards {
+    grid-template-columns: repeat(2, 1fr);
+  }
+  main #blog .blog .par {
+    flex-direction: column;
+  }
+  main #blog .blog {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+}
+@media (max-width: 750px) {
+  main #home .home img {
+    width: 100%;
+  }
+  main #works .works .cards {
+    grid-template-columns: 1fr;
+  }
+  main #family .family .img {
+    width: 100%;
+  }
+  main #family .family .text {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    h2 {
+      text-align: center;
+      font-size: 40px;
+    }
+    p {
+      text-align: center;
+    }
+  }
+  main #home .home div {
+    align-items: center;
+    h1 {
+      text-align: center;
+      font-size: 40px;
+      line-height: 40px;
+    }
+    p {
+      text-align: center;
+      font-size: 14px;
+      line-height: 20px;
+    }
+  }
+  main #works .works {
+    h2 {
+      font-size: 40px;
+    }
+    p {
+      font-size: 14px;
+      line-height: 20px;
+    }
+  }
+  main #logos .logos h5 {
+    text-align: center;
+  }
+  main #family .family .text {
+    h2 {
+      font-size: 40px;
+      line-height: 44px;
+    }
+    p {
+      font-size: 14px;
+      line-height: 20px;
+    }
+  }
+  main #family .family .text .cards .card p {
+    text-align: start;
+  }
+  main #customers .customers .cards {
+    grid-template-columns: 1fr;
+  }
+  main #blog .blog .par p {
+    text-align: center;
+    font-size: 14px;
+    line-height: 20px;
+  }
+  main #blog .blog .cards {
+    grid-template-columns: 1fr;
+  }
+}
+@media (max-width: 620px) {
+  main #property .property .cards {
+    grid-template-columns: 1fr;
+  }
+  main #locations .mark .cards {
+    grid-template-columns: 1fr;
+  }
+  main #family .family .text .cards {
+    grid-template-columns: 1fr;
+    row-gap: 30px;
+  }
+  main #locations .bottom {
+    h2 {
+      font-size: 40px;
+      line-height: 44px;
+    }
+    p {
+      font-size: 14px;
+      line-height: 20px;
+    }
+  }
+  main #locations .bottom {
+    padding: 50px;
+  }
+  main #family .family .text .cards .card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    box-shadow: 0px 2px 4px 0px #00000014;
+    border: 1px solid #e7e8e3;
+    border-radius: 6px;
+    padding: 20px;
+    transition: all 0.4s ease;
+    &:hover {
+      box-shadow: 0px 5px 10px 5px #00000014;
+      background: rgb(241, 240, 234);
+    }
+    p {
+      text-align: center;
+    }
+  }
+  header #header_1 .cross {
+    display: none;
+  }
+  main #home .home div form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  main #family .family .text .buttons {
+    flex-direction: column;
+    align-items: center;
+  }
+  main #property .property .buttons {
+    flex-direction: column;
+    align-items: center;
+  }
+  main #locations .mark .buttons {
+    flex-direction: column;
+    align-items: center;
+  }
+}
